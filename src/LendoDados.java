@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class LendoDados {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String nome; 
 			// cria variável que guarda texto
 		
@@ -15,7 +15,7 @@ public class LendoDados {
 		nome = leitor.next(); 
 			//lê o texto do usuário 
 		
-		System.out.println("Boa noite para você, " + nome); 
+		System.out.println("Boa noite para você, " + nome + "!"); 
 			//exibe uma mensagem com o conteúdo da variável 
 		
 		leitor.close(); 
